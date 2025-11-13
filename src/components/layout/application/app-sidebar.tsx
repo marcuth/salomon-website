@@ -7,6 +7,7 @@ import {
     LuChevronUp,
     LuCalendar,
     LuSettings,
+    LuBrain,
 } from "react-icons/lu"
 import { FC } from "react"
 
@@ -60,8 +61,8 @@ const AppSidebar: FC = () => {
                     <SidebarMenuItem>
                         <SidebarMenuButton>
                             <div className="text-base flex items-center gap-2 font-semibold">
-                                <LuLayoutDashboard />
-                                <span>Bolierplate</span>
+                                <LuBrain />
+                                <span>Salomon</span>
                             </div>
                         </SidebarMenuButton>
                     </SidebarMenuItem>
